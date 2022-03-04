@@ -1,0 +1,13 @@
+--cpu=Cortex-M23
+".\objects\main.o"
+".\objects\crypto_service.o"
+".\objects\system_m2351.o"
+".\objects\startup_m2351.o"
+".\objects\retarget.o"
+".\objects\clk.o"
+"..\..\..\..\..\Library\StdDriver\src\MKROMLib_Keil.lib"
+--library_type=microlib --strict --scatter ".\secure.sct"
+--import-cmse-lib-out="..\Secure\KEIL\Objects\Secure_CMSE_Lib.o"
+--import-cmse-lib-out ..\lib\nsclib.o --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals
+--list ".\Listings\Secure.map" -o .\Objects\Secure.axf

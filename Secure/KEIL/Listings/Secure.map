@@ -1,0 +1,855 @@
+Component: ARM Compiler 6.12 Tool: armlink [5d624300]
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../clib/../cmprslib/zerorunl.c           0x00000000   Number         0  __dczerorl.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llsshr.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfa.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ../clib/microlib/string/memset.c         0x00000000   Number         0  memseta.o ABSOLUTE
+    ../clib/microlib/string/strcpy.c         0x00000000   Number         0  strcpy.o ABSOLUTE
+    ../clib/microlib/string/strlen.c         0x00000000   Number         0  strlen.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
+    ../fplib/microlib/fpadd.c                0x00000000   Number         0  dadd.o ABSOLUTE
+    ../fplib/microlib/fpdiv.c                0x00000000   Number         0  ddiv.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  depilogue.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixul.o ABSOLUTE
+    ../fplib/microlib/fpmul.c                0x00000000   Number         0  dmul.o ABSOLUTE
+    ..\..\..\..\..\Library\Device\Nuvoton\M2351\Source\ARM\startup_M2351.s 0x00000000   Number         0  startup_m2351.o ABSOLUTE
+    cdrcmple.s                               0x00000000   Number         0  cdrcmple.o ABSOLUTE
+    clk.c                                    0x00000000   Number         0  clk.o ABSOLUTE
+    crypto_service.c                         0x00000000   Number         0  crypto_service.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    mkrom_api.c                              0x00000000   Number         0  mkrom_api.o ABSOLUTE
+    retarget.c                               0x00000000   Number         0  retarget.o ABSOLUTE
+    system_M2351.c                           0x00000000   Number         0  system_m2351.o ABSOLUTE
+    RESET                                    0x00000000   Section      472  startup_m2351.o(RESET)
+    .ARM.Collect$$$$00000000                 0x000001d8   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x000001d8   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x000001dc   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x000001e0   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x000001e0   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x000001e0   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    __lit__00000000                          0x000001e8   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .ARM.Collect$$$$0000000D                 0x000001e8   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x000001e8   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x000001e8   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x000001ec   Section       68  startup_m2351.o(.text)
+    .text                                    0x00000230   Section        0  strlen.o(.text)
+    .text                                    0x0000023e   Section        0  strcpy.o(.text)
+    .text                                    0x00000250   Section        0  uidiv.o(.text)
+    .text                                    0x0000027c   Section        0  uldiv.o(.text)
+    .text                                    0x000002dc   Section        0  iusefp.o(.text)
+    .text                                    0x000002dc   Section        0  dadd.o(.text)
+    .text                                    0x00000440   Section        0  dmul.o(.text)
+    .text                                    0x00000510   Section        0  ddiv.o(.text)
+    .text                                    0x00000600   Section        0  dfixul.o(.text)
+    .text                                    0x00000640   Section       40  cdrcmple.o(.text)
+    .text                                    0x00000668   Section       36  init.o(.text)
+    .text                                    0x0000068c   Section        0  llshl.o(.text)
+    .text                                    0x000006ac   Section        0  llushr.o(.text)
+    .text                                    0x000006ce   Section        0  llsshr.o(.text)
+    .text                                    0x000006f4   Section        0  depilogue.o(.text)
+    .text                                    0x000007b2   Section        0  __dczerorl.o(.text)
+    [Anonymous Symbol]                       0x000007ec   Section        0  main.o(.text.Boot_Init)
+    __arm_cp.10_0                            0x000008e4   Number         4  main.o(.text.Boot_Init)
+    __arm_cp.10_1                            0x000008e8   Number         4  main.o(.text.Boot_Init)
+    __arm_cp.10_2                            0x000008ec   Number         4  main.o(.text.Boot_Init)
+    __arm_cp.10_3                            0x000008f0   Number         4  main.o(.text.Boot_Init)
+    __arm_cp.10_4                            0x000008f4   Number         4  main.o(.text.Boot_Init)
+    __arm_cp.10_5                            0x000008f8   Number         4  main.o(.text.Boot_Init)
+    __arm_cp.10_6                            0x000008fc   Number         4  main.o(.text.Boot_Init)
+    __arm_cp.10_7                            0x00000900   Number         4  main.o(.text.Boot_Init)
+    [Anonymous Symbol]                       0x00000904   Section        0  crypto_service.o(.text.Byte2Char)
+    [Anonymous Symbol]                       0x00000944   Section        0  clk.o(.text.CLK_EnableModuleClock)
+    __arm_cp.18_0                            0x0000097c   Number         4  clk.o(.text.CLK_EnableModuleClock)
+    [Anonymous Symbol]                       0x00000980   Section        0  clk.o(.text.CLK_EnableXtalRC)
+    [Anonymous Symbol]                       0x00000998   Section        0  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_0                             0x00000af8   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_1                             0x00000afc   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_2                             0x00000b00   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_3                             0x00000b04   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_5                             0x00000b08   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_6                             0x00000b0c   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_8                             0x00000b10   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_11                            0x00000b14   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_12                            0x00000b18   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    __arm_cp.9_13                            0x00000b1c   Number         4  clk.o(.text.CLK_GetCPUFreq)
+    [Anonymous Symbol]                       0x00000b20   Section        0  clk.o(.text.CLK_GetHCLKFreq)
+    [Anonymous Symbol]                       0x00000b40   Section        0  clk.o(.text.CLK_GetHXTFreq)
+    __arm_cp.4_1                             0x00000b78   Number         4  clk.o(.text.CLK_GetHXTFreq)
+    [Anonymous Symbol]                       0x00000b7c   Section        0  clk.o(.text.CLK_GetLXTFreq)
+    __arm_cp.5_0                             0x00000bb4   Number         4  clk.o(.text.CLK_GetLXTFreq)
+    [Anonymous Symbol]                       0x00000bb8   Section        0  clk.o(.text.CLK_GetModuleClockDivider)
+    __arm_cp.29_0                            0x00000c20   Number         4  clk.o(.text.CLK_GetModuleClockDivider)
+    __arm_cp.29_1                            0x00000c24   Number         4  clk.o(.text.CLK_GetModuleClockDivider)
+    [Anonymous Symbol]                       0x00000c28   Section        0  clk.o(.text.CLK_GetModuleClockSource)
+    __arm_cp.28_0                            0x00000cfc   Number         4  clk.o(.text.CLK_GetModuleClockSource)
+    __arm_cp.28_1                            0x00000d00   Number         4  clk.o(.text.CLK_GetModuleClockSource)
+    __arm_cp.28_2                            0x00000d04   Number         4  clk.o(.text.CLK_GetModuleClockSource)
+    __arm_cp.28_3                            0x00000d08   Number         4  clk.o(.text.CLK_GetModuleClockSource)
+    __arm_cp.28_4                            0x00000d0c   Number         4  clk.o(.text.CLK_GetModuleClockSource)
+    __arm_cp.28_5                            0x00000d10   Number         4  clk.o(.text.CLK_GetModuleClockSource)
+    __arm_cp.28_6                            0x00000d14   Number         4  clk.o(.text.CLK_GetModuleClockSource)
+    [Anonymous Symbol]                       0x00000d18   Section        0  clk.o(.text.CLK_GetPCLK0Freq)
+    [Anonymous Symbol]                       0x00000d40   Section        0  clk.o(.text.CLK_GetPCLK1Freq)
+    __arm_cp.8_0                             0x00000d6c   Number         4  clk.o(.text.CLK_GetPCLK1Freq)
+    __arm_cp.8_1                             0x00000d70   Number         4  clk.o(.text.CLK_GetPCLK1Freq)
+    [Anonymous Symbol]                       0x00000d74   Section        0  clk.o(.text.CLK_GetPLLClockFreq)
+    __arm_cp.27_0                            0x00000e14   Number         4  clk.o(.text.CLK_GetPLLClockFreq)
+    __arm_cp.27_1                            0x00000e18   Number         4  clk.o(.text.CLK_GetPLLClockFreq)
+    __arm_cp.27_2                            0x00000e1c   Number         4  clk.o(.text.CLK_GetPLLClockFreq)
+    __arm_cp.27_3                            0x00000e20   Number         4  clk.o(.text.CLK_GetPLLClockFreq)
+    [Anonymous Symbol]                       0x00000e24   Section        0  clk.o(.text.CLK_SetHCLK)
+    __arm_cp.13_1                            0x00000eb8   Number         4  clk.o(.text.CLK_SetHCLK)
+    __arm_cp.13_3                            0x00000ebc   Number         4  clk.o(.text.CLK_SetHCLK)
+    [Anonymous Symbol]                       0x00000ec0   Section        0  clk.o(.text.CLK_SetModuleClock)
+    __arm_cp.14_0                            0x00000f78   Number         4  clk.o(.text.CLK_SetModuleClock)
+    __arm_cp.14_1                            0x00000f7c   Number         4  clk.o(.text.CLK_SetModuleClock)
+    __arm_cp.14_2                            0x00000f80   Number         4  clk.o(.text.CLK_SetModuleClock)
+    [Anonymous Symbol]                       0x00000f84   Section        0  clk.o(.text.CLK_SetSysTickClockSrc)
+    __arm_cp.15_0                            0x00000fa0   Number         4  clk.o(.text.CLK_SetSysTickClockSrc)
+    [Anonymous Symbol]                       0x00000fa4   Section        0  clk.o(.text.CLK_WaitClockReady)
+    __arm_cp.11_0                            0x00000fe0   Number         4  clk.o(.text.CLK_WaitClockReady)
+    __arm_cp.11_1                            0x00000fe4   Number         4  clk.o(.text.CLK_WaitClockReady)
+    [Anonymous Symbol]                       0x00000fe8   Section        0  main.o(.text.CRPT_IRQHandler)
+    __arm_cp.11_0                            0x00001024   Number         4  main.o(.text.CRPT_IRQHandler)
+    __arm_cp.11_1                            0x00001028   Number         4  main.o(.text.CRPT_IRQHandler)
+    __arm_cp.11_2                            0x0000102c   Number         4  main.o(.text.CRPT_IRQHandler)
+    FMC_NSBA_Setup                           0x00001031   Thumb Code   148  system_m2351.o(.text.FMC_NSBA_Setup)
+    [Anonymous Symbol]                       0x00001030   Section        0  system_m2351.o(.text.FMC_NSBA_Setup)
+    __arm_cp.4_0                             0x000010a4   Number         4  system_m2351.o(.text.FMC_NSBA_Setup)
+    __arm_cp.4_1                             0x000010a8   Number         4  system_m2351.o(.text.FMC_NSBA_Setup)
+    __arm_cp.4_2                             0x000010ac   Number         4  system_m2351.o(.text.FMC_NSBA_Setup)
+    __arm_cp.4_3                             0x000010b0   Number         4  system_m2351.o(.text.FMC_NSBA_Setup)
+    __arm_cp.4_4                             0x000010b4   Number         4  system_m2351.o(.text.FMC_NSBA_Setup)
+    __arm_cp.4_5                             0x000010b8   Number         4  system_m2351.o(.text.FMC_NSBA_Setup)
+    __arm_cp.4_6                             0x000010bc   Number         4  system_m2351.o(.text.FMC_NSBA_Setup)
+    __arm_cp.4_7                             0x000010c0   Number         4  system_m2351.o(.text.FMC_NSBA_Setup)
+    [Anonymous Symbol]                       0x000010c4   Section        0  retarget.o(.text.ProcessHardFault)
+    SCU_Setup                                0x00001141   Thumb Code   120  system_m2351.o(.text.SCU_Setup)
+    [Anonymous Symbol]                       0x00001140   Section        0  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_0                             0x00001194   Number         4  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_1                             0x00001198   Number         4  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_2                             0x0000119c   Number         4  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_3                             0x000011a0   Number         4  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_4                             0x000011a4   Number         4  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_5                             0x000011a8   Number         4  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_6                             0x000011ac   Number         4  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_7                             0x000011b0   Number         4  system_m2351.o(.text.SCU_Setup)
+    __arm_cp.3_8                             0x000011b4   Number         4  system_m2351.o(.text.SCU_Setup)
+    [Anonymous Symbol]                       0x000011b8   Section        0  retarget.o(.text.SH_Return)
+    [Anonymous Symbol]                       0x000011d4   Section        0  main.o(.text.SYS_Init)
+    __arm_cp.8_0                             0x0000123c   Number         4  main.o(.text.SYS_Init)
+    __arm_cp.8_1                             0x00001240   Number         4  main.o(.text.SYS_Init)
+    __arm_cp.8_2                             0x00001244   Number         4  main.o(.text.SYS_Init)
+    __arm_cp.8_3                             0x00001248   Number         4  main.o(.text.SYS_Init)
+    SYS_UnlockReg                            0x0000124d   Thumb Code    36  main.o(.text.SYS_UnlockReg)
+    [Anonymous Symbol]                       0x0000124c   Section        0  main.o(.text.SYS_UnlockReg)
+    SYS_UnlockReg                            0x0000126d   Thumb Code    36  system_m2351.o(.text.SYS_UnlockReg)
+    [Anonymous Symbol]                       0x0000126c   Section        0  system_m2351.o(.text.SYS_UnlockReg)
+    __arm_cp.5_0                             0x0000128c   Number         4  system_m2351.o(.text.SYS_UnlockReg)
+    [Anonymous Symbol]                       0x00001290   Section        0  retarget.o(.text.SendChar)
+    [Anonymous Symbol]                       0x000012a4   Section        0  retarget.o(.text.SendChar_ToUART)
+    __arm_cp.2_0                             0x000012e8   Number         4  retarget.o(.text.SendChar_ToUART)
+    __arm_cp.2_1                             0x000012ec   Number         4  retarget.o(.text.SendChar_ToUART)
+    [Anonymous Symbol]                       0x000012f0   Section        0  system_m2351.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_0                             0x00001314   Number         4  system_m2351.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_1                             0x00001318   Number         4  system_m2351.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_2                             0x0000131c   Number         4  system_m2351.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_3                             0x00001320   Number         4  system_m2351.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_4                             0x00001324   Number         4  system_m2351.o(.text.SystemCoreClockUpdate)
+    [Anonymous Symbol]                       0x00001328   Section        0  system_m2351.o(.text.SystemInit)
+    __arm_cp.1_0                             0x00001340   Number         4  system_m2351.o(.text.SystemInit)
+    __arm_cp.1_1                             0x00001344   Number         4  system_m2351.o(.text.SystemInit)
+    TZ_SAU_Setup                             0x00001349   Thumb Code   188  system_m2351.o(.text.TZ_SAU_Setup)
+    [Anonymous Symbol]                       0x00001348   Section        0  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_0                             0x000013b8   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_1                             0x000013bc   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_2                             0x000013c0   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_3                             0x000013c4   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_4                             0x000013c8   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_5                             0x000013cc   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_6                             0x000013d0   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_7                             0x000013d4   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_8                             0x000013d8   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_9                             0x000013dc   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_10                            0x000013e0   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_11                            0x000013e4   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_12                            0x000013e8   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_13                            0x000013ec   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_14                            0x000013f0   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_15                            0x000013f4   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_16                            0x000013f8   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_17                            0x000013fc   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    __arm_cp.2_18                            0x00001400   Number         4  system_m2351.o(.text.TZ_SAU_Setup)
+    [Anonymous Symbol]                       0x00001404   Section        0  main.o(.text.UART0_Init)
+    __arm_cp.9_0                             0x00001414   Number         4  main.o(.text.UART0_Init)
+    __arm_cp.9_1                             0x00001418   Number         4  main.o(.text.UART0_Init)
+    __arm_cp.9_2                             0x0000141c   Number         4  main.o(.text.UART0_Init)
+    [Anonymous Symbol]                       0x00001420   Section        0  mkrom_api.o(.text.XAES_Open)
+    [Anonymous Symbol]                       0x0000145a   Section        0  mkrom_api.o(.text.XAES_SetDMATransfer)
+    [Anonymous Symbol]                       0x00001490   Section        0  mkrom_api.o(.text.XAES_SetInitVect)
+    [Anonymous Symbol]                       0x000014c6   Section        0  mkrom_api.o(.text.XAES_SetKey)
+    [Anonymous Symbol]                       0x000014f6   Section        0  mkrom_api.o(.text.XAES_Start)
+    [Anonymous Symbol]                       0x0000152c   Section        0  mkrom_api.o(.text.XECC_GeneratePublicKey)
+    [Anonymous Symbol]                       0x0000156e   Section        0  mkrom_api.o(.text.XECC_GenerateSignature)
+    [Anonymous Symbol]                       0x000015b8   Section        0  mkrom_api.o(.text.XECC_IsPrivateKeyValid)
+    [Anonymous Symbol]                       0x000015f6   Section        0  mkrom_api.o(.text.XECC_VerifySignature)
+    [Anonymous Symbol]                       0x00001640   Section        0  mkrom_api.o(.text.XSHA_Open)
+    [Anonymous Symbol]                       0x00001670   Section        0  mkrom_api.o(.text.XSHA_Read)
+    [Anonymous Symbol]                       0x0000169a   Section        0  mkrom_api.o(.text.XSHA_SetDMATransfer)
+    [Anonymous Symbol]                       0x000016d0   Section        0  mkrom_api.o(.text.XSHA_Start)
+    [Anonymous Symbol]                       0x000016fa   Section        0  mkrom_api.o(.text.XTRNG_Random)
+    [Anonymous Symbol]                       0x00001738   Section        0  mkrom_api.o(.text.XTRNG_RandomInit)
+    __NVIC_DisableIRQ                        0x0000176d   Thumb Code    56  crypto_service.o(.text.__NVIC_DisableIRQ)
+    [Anonymous Symbol]                       0x0000176c   Section        0  crypto_service.o(.text.__NVIC_DisableIRQ)
+    __arm_cp.3_0                             0x000017a0   Number         4  crypto_service.o(.text.__NVIC_DisableIRQ)
+    __NVIC_EnableIRQ                         0x000017a5   Thumb Code    48  crypto_service.o(.text.__NVIC_EnableIRQ)
+    [Anonymous Symbol]                       0x000017a4   Section        0  crypto_service.o(.text.__NVIC_EnableIRQ)
+    __arm_cp.5_0                             0x000017d0   Number         4  crypto_service.o(.text.__NVIC_EnableIRQ)
+    [Anonymous Symbol]                       0x000017d4   Section        0  crypto_service.o(.text.calc_size)
+    __arm_cp.0_0                             0x000018b4   Number         4  crypto_service.o(.text.calc_size)
+    [Anonymous Symbol]                       0x000018b8   Section        0  crypto_service.o(.text.crypto_ecc_genKey)
+    [Anonymous Symbol]                       0x00001a68   Section        0  main.o(.text.crypto_ecc_genKey_call)
+    [Anonymous Symbol]                       0x00001ab8   Section        0  crypto_service.o(.text.crypto_ecc_init)
+    [Anonymous Symbol]                       0x00001adc   Section        0  crypto_service.o(.text.crypto_ecc_sign)
+    __arm_cp.9_1                             0x00001c78   Number         4  crypto_service.o(.text.crypto_ecc_sign)
+    __arm_cp.9_2                             0x00001c7c   Number         4  crypto_service.o(.text.crypto_ecc_sign)
+    [Anonymous Symbol]                       0x00001c80   Section        0  main.o(.text.crypto_ecc_sign_call)
+    [Anonymous Symbol]                       0x00001cc2   Section        0  main.o(.text.crypto_ecc_sign_init_call)
+    [Anonymous Symbol]                       0x00001cf4   Section        0  crypto_service.o(.text.crypto_ecc_verify)
+    __arm_cp.10_0                            0x00001da0   Number         4  crypto_service.o(.text.crypto_ecc_verify)
+    __arm_cp.10_1                            0x00001da4   Number         4  crypto_service.o(.text.crypto_ecc_verify)
+    __arm_cp.10_2                            0x00001da8   Number         4  crypto_service.o(.text.crypto_ecc_verify)
+    __arm_cp.10_3                            0x00001dac   Number         4  crypto_service.o(.text.crypto_ecc_verify)
+    __arm_cp.10_4                            0x00001db0   Number         4  crypto_service.o(.text.crypto_ecc_verify)
+    [Anonymous Symbol]                       0x00001db4   Section        0  main.o(.text.crypto_ecc_verify_call)
+    [Anonymous Symbol]                       0x00001df8   Section        0  crypto_service.o(.text.crypto_hash)
+    __arm_cp.4_1                             0x00001f44   Number         4  crypto_service.o(.text.crypto_hash)
+    __arm_cp.4_2                             0x00001f48   Number         4  crypto_service.o(.text.crypto_hash)
+    [Anonymous Symbol]                       0x00001f4c   Section        0  main.o(.text.crypto_hash_call)
+    [Anonymous Symbol]                       0x00001f90   Section        0  crypto_service.o(.text.crypto_symmetric)
+    __arm_cp.6_1                             0x00002054   Number         4  crypto_service.o(.text.crypto_symmetric)
+    __arm_cp.6_2                             0x00002058   Number         4  crypto_service.o(.text.crypto_symmetric)
+    __arm_cp.6_3                             0x0000205c   Number         4  crypto_service.o(.text.crypto_symmetric)
+    __arm_cp.6_4                             0x00002060   Number         4  crypto_service.o(.text.crypto_symmetric)
+    [Anonymous Symbol]                       0x00002064   Section        0  main.o(.text.crypto_symmetric_call)
+    [Anonymous Symbol]                       0x000020b2   Section        0  retarget.o(.text.fputc)
+    [Anonymous Symbol]                       0x000020d0   Section        0  crypto_service.o(.text.hw_acc_disable)
+    __arm_cp.2_0                             0x000020f4   Number         4  crypto_service.o(.text.hw_acc_disable)
+    [Anonymous Symbol]                       0x000020f8   Section        0  main.o(.text.main)
+    __arm_cp.6_0                             0x00002160   Number         4  main.o(.text.main)
+    __arm_cp.6_1                             0x00002164   Number         4  main.o(.text.main)
+    __arm_cp.6_2                             0x00002168   Number         4  main.o(.text.main)
+    __arm_cp.6_3                             0x0000216c   Number         4  main.o(.text.main)
+    __arm_cp.6_4                             0x00002170   Number         4  main.o(.text.main)
+    __arm_cp.6_5                             0x00002174   Number         4  main.o(.text.main)
+    i.__0printf                              0x00002178   Section        0  printfa.o(i.__0printf)
+    i.__ARM_clz                              0x00002198   Section        0  depilogue.o(i.__ARM_clz)
+    i.__scatterload_copy                     0x000021c6   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x000021d4   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x000021d6   Section       14  handlers.o(i.__scatterload_zeroinit)
+    _fp_digits                               0x000021e5   Thumb Code   344  printfa.o(i._fp_digits)
+    i._fp_digits                             0x000021e4   Section        0  printfa.o(i._fp_digits)
+    _printf_core                             0x00002359   Thumb Code  1754  printfa.o(i._printf_core)
+    i._printf_core                           0x00002358   Section        0  printfa.o(i._printf_core)
+    _printf_post_padding                     0x00002a45   Thumb Code    32  printfa.o(i._printf_post_padding)
+    i._printf_post_padding                   0x00002a44   Section        0  printfa.o(i._printf_post_padding)
+    _printf_pre_padding                      0x00002a65   Thumb Code    44  printfa.o(i._printf_pre_padding)
+    i._printf_pre_padding                    0x00002a64   Section        0  printfa.o(i._printf_pre_padding)
+    .L__const.CLK_SetModuleClock.au32SelTbl  0x00002a90   Data          16  clk.o(.rodata.cst16)
+    .L__const.CLK_SetModuleClock.au32DivTbl  0x00002aa0   Data          16  clk.o(.rodata.cst16)
+    .L__const.CLK_GetModuleClockSource.au32SelTbl 0x00002ab0   Data          16  clk.o(.rodata.cst16)
+    .L__const.CLK_GetModuleClockDivider.au32DivTbl 0x00002ac0   Data          16  clk.o(.rodata.cst16)
+    .L__const.CLK_GetCPUFreq.au32ClkTbl      0x00002ad0   Data          32  clk.o(.rodata.cst32)
+    .L.str.3                                 0x00002af0   Data          31  main.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00002af0   Section        0  main.o(.rodata.str1.1)
+    .L.str.2                                 0x00002b0f   Data          29  main.o(.rodata.str1.1)
+    .L.str.1                                 0x00002b2c   Data          17  main.o(.rodata.str1.1)
+    .L.str                                   0x00002b3d   Data          21  main.o(.rodata.str1.1)
+    .L.str.4                                 0x00002b52   Data          37  main.o(.rodata.str1.1)
+    STACK                                    0x200004d0   Section     2048  startup_m2351.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$8M$PE$A:L22$X:L11$S22$IEEE1$IW$~IW$USESV6$~STKCKD$USESV7$WCHAR32$ENUMINT$~SHL$OTIME$ROPI$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_m2351.o(RESET)
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_End                            0x000001d8   Data           0  startup_m2351.o(RESET)
+    __Vectors_Size                           0x000001d8   Number         0  startup_m2351.o ABSOLUTE
+    __main                                   0x000001d9   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x000001d9   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x000001dd   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x000001e1   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x000001e1   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x000001e1   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x000001e1   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x000001e9   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x000001e9   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    Reset_Handler                            0x000001ed   Thumb Code     8  startup_m2351.o(.text)
+    NMI_Handler                              0x000001f5   Thumb Code     2  startup_m2351.o(.text)
+    HardFault_Handler                        0x000001f7   Thumb Code    16  startup_m2351.o(.text)
+    ProcessHardFaultx                        0x00000207   Thumb Code     2  startup_m2351.o(.text)
+    SVC_Handler                              0x00000209   Thumb Code     2  startup_m2351.o(.text)
+    PendSV_Handler                           0x0000020b   Thumb Code     2  startup_m2351.o(.text)
+    SysTick_Handler                          0x0000020d   Thumb Code     2  startup_m2351.o(.text)
+    ACMP01_IRQHandler                        0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    BOD_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    BPWM0_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    BPWM1_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    BRAKE0_IRQHandler                        0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    BRAKE1_IRQHandler                        0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    CAN0_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    CAN1_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    CLKFAIL_IRQHandler                       0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    DAC_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    DEFAULT_IRQHandler                       0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EADC0_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EADC1_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EADC2_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EADC3_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    ECAP0_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    ECAP1_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EINT0_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EINT1_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EINT2_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EINT3_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EINT4_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EINT5_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EINT6_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EINT7_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EPWM0_P0_IRQHandler                      0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EPWM0_P1_IRQHandler                      0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EPWM0_P2_IRQHandler                      0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EPWM1_P0_IRQHandler                      0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EPWM1_P1_IRQHandler                      0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    EPWM1_P2_IRQHandler                      0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    GPA_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    GPB_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    GPC_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    GPD_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    GPE_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    GPF_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    GPG_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    GPH_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    I2C0_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    I2C1_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    I2C2_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    I2S0_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    IRC_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    OPA0_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    PDMA0_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    PDMA1_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    PWRWU_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    QEI0_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    QEI1_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    QSPI0_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    RTC_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SC0_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SC1_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SC2_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SC3_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SCU_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SDH0_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SDH1_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SPI0_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SPI1_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SPI2_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SPI3_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SRAM_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    TAMPER_IRQHandler                        0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    TMR0_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    TMR1_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    TMR2_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    TMR3_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    TRNG_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    UART0_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    UART1_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    UART2_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    UART3_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    UART4_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    UART5_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    USBD_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    USBH_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    USBOTG_IRQHandler                        0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    USCI0_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    USCI1_IRQHandler                         0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    WDT_IRQHandler                           0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    WWDT_IRQHandler                          0x0000020f   Thumb Code     0  startup_m2351.o(.text)
+    SH_DoCommand                             0x00000211   Thumb Code    10  startup_m2351.o(.text)
+    __PC                                     0x0000021b   Thumb Code     6  startup_m2351.o(.text)
+    strlen                                   0x00000231   Thumb Code    14  strlen.o(.text)
+    strcpy                                   0x0000023f   Thumb Code    18  strcpy.o(.text)
+    __aeabi_uidiv                            0x00000251   Thumb Code     0  uidiv.o(.text)
+    __aeabi_uidivmod                         0x00000251   Thumb Code    44  uidiv.o(.text)
+    __aeabi_uldivmod                         0x0000027d   Thumb Code    96  uldiv.o(.text)
+    __I$use$fp                               0x000002dd   Thumb Code     0  iusefp.o(.text)
+    __aeabi_dadd                             0x000002dd   Thumb Code   328  dadd.o(.text)
+    __aeabi_dsub                             0x00000425   Thumb Code    12  dadd.o(.text)
+    __aeabi_drsub                            0x00000431   Thumb Code    12  dadd.o(.text)
+    __aeabi_dmul                             0x00000441   Thumb Code   202  dmul.o(.text)
+    __aeabi_ddiv                             0x00000511   Thumb Code   234  ddiv.o(.text)
+    __aeabi_d2ulz                            0x00000601   Thumb Code    54  dfixul.o(.text)
+    __aeabi_cdrcmple                         0x00000641   Thumb Code    38  cdrcmple.o(.text)
+    __scatterload                            0x00000669   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x00000669   Thumb Code     0  init.o(.text)
+    __aeabi_llsl                             0x0000068d   Thumb Code    32  llshl.o(.text)
+    _ll_shift_l                              0x0000068d   Thumb Code     0  llshl.o(.text)
+    __aeabi_llsr                             0x000006ad   Thumb Code    34  llushr.o(.text)
+    _ll_ushift_r                             0x000006ad   Thumb Code     0  llushr.o(.text)
+    __aeabi_lasr                             0x000006cf   Thumb Code    38  llsshr.o(.text)
+    _ll_sshift_r                             0x000006cf   Thumb Code     0  llsshr.o(.text)
+    _double_round                            0x000006f5   Thumb Code    26  depilogue.o(.text)
+    _double_epilogue                         0x0000070f   Thumb Code   164  depilogue.o(.text)
+    __decompress                             0x000007b3   Thumb Code     0  __dczerorl.o(.text)
+    __decompress0                            0x000007b3   Thumb Code    58  __dczerorl.o(.text)
+    Boot_Init                                0x000007ed   Thumb Code   280  main.o(.text.Boot_Init)
+    Byte2Char                                0x00000905   Thumb Code    64  crypto_service.o(.text.Byte2Char)
+    CLK_EnableModuleClock                    0x00000945   Thumb Code    60  clk.o(.text.CLK_EnableModuleClock)
+    CLK_EnableXtalRC                         0x00000981   Thumb Code    28  clk.o(.text.CLK_EnableXtalRC)
+    __acle_se_CLK_GetCPUFreq                 0x00000999   Thumb Code     0  clk.o(.text.CLK_GetCPUFreq)
+    __acle_se_CLK_GetHCLKFreq                0x00000b21   Thumb Code     0  clk.o(.text.CLK_GetHCLKFreq)
+    __acle_se_CLK_GetHXTFreq                 0x00000b41   Thumb Code     0  clk.o(.text.CLK_GetHXTFreq)
+    __acle_se_CLK_GetLXTFreq                 0x00000b7d   Thumb Code     0  clk.o(.text.CLK_GetLXTFreq)
+    __acle_se_CLK_GetModuleClockDivider      0x00000bb9   Thumb Code     0  clk.o(.text.CLK_GetModuleClockDivider)
+    __acle_se_CLK_GetModuleClockSource       0x00000c29   Thumb Code     0  clk.o(.text.CLK_GetModuleClockSource)
+    __acle_se_CLK_GetPCLK0Freq               0x00000d19   Thumb Code     0  clk.o(.text.CLK_GetPCLK0Freq)
+    __acle_se_CLK_GetPCLK1Freq               0x00000d41   Thumb Code     0  clk.o(.text.CLK_GetPCLK1Freq)
+    __acle_se_CLK_GetPLLClockFreq            0x00000d75   Thumb Code     0  clk.o(.text.CLK_GetPLLClockFreq)
+    CLK_SetHCLK                              0x00000e25   Thumb Code   168  clk.o(.text.CLK_SetHCLK)
+    CLK_SetModuleClock                       0x00000ec1   Thumb Code   200  clk.o(.text.CLK_SetModuleClock)
+    CLK_SetSysTickClockSrc                   0x00000f85   Thumb Code    32  clk.o(.text.CLK_SetSysTickClockSrc)
+    CLK_WaitClockReady                       0x00000fa5   Thumb Code    68  clk.o(.text.CLK_WaitClockReady)
+    CRPT_IRQHandler                          0x00000fe9   Thumb Code    72  main.o(.text.CRPT_IRQHandler)
+    ProcessHardFault                         0x000010c5   Thumb Code   122  retarget.o(.text.ProcessHardFault)
+    SH_Return                                0x000011b9   Thumb Code    28  retarget.o(.text.SH_Return)
+    SYS_Init                                 0x000011d5   Thumb Code   120  main.o(.text.SYS_Init)
+    SendChar                                 0x00001291   Thumb Code    20  retarget.o(.text.SendChar)
+    SendChar_ToUART                          0x000012a5   Thumb Code    76  retarget.o(.text.SendChar_ToUART)
+    SystemCoreClockUpdate                    0x000012f1   Thumb Code    56  system_m2351.o(.text.SystemCoreClockUpdate)
+    SystemInit                               0x00001329   Thumb Code    32  system_m2351.o(.text.SystemInit)
+    UART0_Init                               0x00001405   Thumb Code    28  main.o(.text.UART0_Init)
+    XAES_Open                                0x00001421   Thumb Code    58  mkrom_api.o(.text.XAES_Open)
+    XAES_SetDMATransfer                      0x0000145b   Thumb Code    54  mkrom_api.o(.text.XAES_SetDMATransfer)
+    XAES_SetInitVect                         0x00001491   Thumb Code    54  mkrom_api.o(.text.XAES_SetInitVect)
+    XAES_SetKey                              0x000014c7   Thumb Code    48  mkrom_api.o(.text.XAES_SetKey)
+    XAES_Start                               0x000014f7   Thumb Code    54  mkrom_api.o(.text.XAES_Start)
+    XECC_GeneratePublicKey                   0x0000152d   Thumb Code    66  mkrom_api.o(.text.XECC_GeneratePublicKey)
+    XECC_GenerateSignature                   0x0000156f   Thumb Code    74  mkrom_api.o(.text.XECC_GenerateSignature)
+    XECC_IsPrivateKeyValid                   0x000015b9   Thumb Code    62  mkrom_api.o(.text.XECC_IsPrivateKeyValid)
+    XECC_VerifySignature                     0x000015f7   Thumb Code    74  mkrom_api.o(.text.XECC_VerifySignature)
+    XSHA_Open                                0x00001641   Thumb Code    48  mkrom_api.o(.text.XSHA_Open)
+    XSHA_Read                                0x00001671   Thumb Code    42  mkrom_api.o(.text.XSHA_Read)
+    XSHA_SetDMATransfer                      0x0000169b   Thumb Code    54  mkrom_api.o(.text.XSHA_SetDMATransfer)
+    XSHA_Start                               0x000016d1   Thumb Code    42  mkrom_api.o(.text.XSHA_Start)
+    XTRNG_Random                             0x000016fb   Thumb Code    62  mkrom_api.o(.text.XTRNG_Random)
+    XTRNG_RandomInit                         0x00001739   Thumb Code    50  mkrom_api.o(.text.XTRNG_RandomInit)
+    calc_size                                0x000017d5   Thumb Code   228  crypto_service.o(.text.calc_size)
+    crypto_ecc_genKey                        0x000018b9   Thumb Code   444  crypto_service.o(.text.crypto_ecc_genKey)
+    __acle_se_crypto_ecc_genKey_call         0x00001a69   Thumb Code     0  main.o(.text.crypto_ecc_genKey_call)
+    crypto_ecc_init                          0x00001ab9   Thumb Code    44  crypto_service.o(.text.crypto_ecc_init)
+    crypto_ecc_sign                          0x00001add   Thumb Code   432  crypto_service.o(.text.crypto_ecc_sign)
+    __acle_se_crypto_ecc_sign_call           0x00001c81   Thumb Code     0  main.o(.text.crypto_ecc_sign_call)
+    __acle_se_crypto_ecc_sign_init_call      0x00001cc3   Thumb Code     0  main.o(.text.crypto_ecc_sign_init_call)
+    crypto_ecc_verify                        0x00001cf5   Thumb Code   192  crypto_service.o(.text.crypto_ecc_verify)
+    __acle_se_crypto_ecc_verify_call         0x00001db5   Thumb Code     0  main.o(.text.crypto_ecc_verify_call)
+    crypto_hash                              0x00001df9   Thumb Code   344  crypto_service.o(.text.crypto_hash)
+    __acle_se_crypto_hash_call               0x00001f4d   Thumb Code     0  main.o(.text.crypto_hash_call)
+    crypto_symmetric                         0x00001f91   Thumb Code   216  crypto_service.o(.text.crypto_symmetric)
+    __acle_se_crypto_symmetric_call          0x00002065   Thumb Code     0  main.o(.text.crypto_symmetric_call)
+    fputc                                    0x000020b3   Thumb Code    28  retarget.o(.text.fputc)
+    hw_acc_disable                           0x000020d1   Thumb Code    40  crypto_service.o(.text.hw_acc_disable)
+    main                                     0x000020f9   Thumb Code   128  main.o(.text.main)
+    __0printf                                0x00002179   Thumb Code    24  printfa.o(i.__0printf)
+    __1printf                                0x00002179   Thumb Code     0  printfa.o(i.__0printf)
+    __2printf                                0x00002179   Thumb Code     0  printfa.o(i.__0printf)
+    __c89printf                              0x00002179   Thumb Code     0  printfa.o(i.__0printf)
+    printf                                   0x00002179   Thumb Code     0  printfa.o(i.__0printf)
+    __ARM_clz                                0x00002199   Thumb Code    46  depilogue.o(i.__ARM_clz)
+    __scatterload_copy                       0x000021c7   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x000021d5   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x000021d7   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    Region$$Table$$Base                      0x00002b78   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00002b98   Number         0  anon$$obj.o(Region$$Table)
+    crypto_ecc_genKey_call                   0x0003f001   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    crypto_ecc_sign_call                     0x0003f009   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    crypto_ecc_sign_init_call                0x0003f011   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    crypto_ecc_verify_call                   0x0003f019   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    crypto_hash_call                         0x0003f021   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    crypto_symmetric_call                    0x0003f029   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetCPUFreq                           0x0003f031   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetHCLKFreq                          0x0003f039   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetHXTFreq                           0x0003f041   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetLXTFreq                           0x0003f049   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetModuleClockDivider                0x0003f051   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetModuleClockSource                 0x0003f059   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetPCLK0Freq                         0x0003f061   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetPCLK1Freq                         0x0003f069   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    CLK_GetPLLClockFreq                      0x0003f071   Thumb Code     8  anon$$obj.o(Veneer$$CMSE)
+    RESERVED01                               0x00807e01   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_CheckFlashAllOne                      0x00807e09   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_DisableFMC                            0x00807e11   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_EnableFMC                             0x00807e19   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_EraseXOMRegion                        0x00807e21   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_FlashChecksum                         0x00807e29   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_FlashMultiRead                        0x00807e31   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_FlashMultiWrite                       0x00807e39   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_FlashPageErase                        0x00807e41   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_FlashRead                             0x00807e49   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_FlashWrite                            0x00807e51   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetIDECCSignature                     0x00807e59   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetISPStatus                          0x00807e61   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetKPROMCounter                       0x00807e69   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetKPROMPowerOnCounter                0x00807e71   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetKPROMStatus                        0x00807e79   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetNSBoundary                         0x00807e81   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetVersion                            0x00807e89   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetXOMActiveStatus                    0x00807e91   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_GetXOMEraseStatus                     0x00807e99   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED02                               0x00807ea1   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED03                               0x00807ea9   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED04                               0x00807eb1   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED05                               0x00807eb9   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED06                               0x00807ec1   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED07                               0x00807ec9   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED08                               0x00807ed1   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_ReadCID                               0x00807ed9   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_ReadDID                               0x00807ee1   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED09                               0x00807ee9   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_ReadPID                               0x00807ef1   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_ReadUCID                              0x00807ef9   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_ReadUID                               0x00807f01   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_ReadXOMRegion                         0x00807f09   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_ResetChip                             0x00807f11   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_SetFlashAllLock                       0x00807f19   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    RESERVED10                               0x00807f21   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_SetXOMRegion                          0x00807f29   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_TrgKPROMCompare                       0x00807f31   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    BL_XFlashBlockErase                      0x00807f39   Thumb Code     8  mkromlib_nsc.o ABSOLUTE
+    CyclesPerUs                              0x20000000   Data           4  system_m2351.o(.data.CyclesPerUs)
+    PllClock                                 0x20000004   Data           4  system_m2351.o(.data.PllClock)
+    SystemCoreClock                          0x20000008   Data           4  system_m2351.o(.data.SystemCoreClock)
+    g_au32MyAESKey                           0x2000000c   Data          32  crypto_service.o(.data.g_au32MyAESKey)
+    g_xcrpt                                  0x2000002c   Data        1004  mkrom_api.o(.data.g_xcrpt)
+    xAES_Open                                0x20000418   Data           4  mkrom_api.o(.data.xAES_Open)
+    xAES_SetDMATransfer                      0x2000041c   Data           4  mkrom_api.o(.data.xAES_SetDMATransfer)
+    xAES_SetInitVect                         0x20000420   Data           4  mkrom_api.o(.data.xAES_SetInitVect)
+    xAES_SetKey                              0x20000424   Data           4  mkrom_api.o(.data.xAES_SetKey)
+    xAES_Start                               0x20000428   Data           4  mkrom_api.o(.data.xAES_Start)
+    xBL_Random                               0x2000042c   Data           4  mkrom_api.o(.data.xBL_Random)
+    xBL_RandomInit                           0x20000430   Data           4  mkrom_api.o(.data.xBL_RandomInit)
+    xECC_GeneratePublicKey                   0x20000434   Data           4  mkrom_api.o(.data.xECC_GeneratePublicKey)
+    xECC_GenerateSignature                   0x20000438   Data           4  mkrom_api.o(.data.xECC_GenerateSignature)
+    xECC_IsPrivateKeyValid                   0x2000043c   Data           4  mkrom_api.o(.data.xECC_IsPrivateKeyValid)
+    xECC_VerifySignature                     0x20000440   Data           4  mkrom_api.o(.data.xECC_VerifySignature)
+    xSHA_Open                                0x20000444   Data           4  mkrom_api.o(.data.xSHA_Open)
+    xSHA_Read                                0x20000448   Data           4  mkrom_api.o(.data.xSHA_Read)
+    xSHA_SetDMATransfer                      0x2000044c   Data           4  mkrom_api.o(.data.xSHA_SetDMATransfer)
+    xSHA_Start                               0x20000450   Data           4  mkrom_api.o(.data.xSHA_Start)
+    __stdout                                 0x20000458   Data          84  retarget.o(.bss.__stdout)
+    ecc_algorithm                            0x200004ac   Data           4  crypto_service.o(.bss.ecc_algorithm)
+    ecc_msg                                  0x200004b0   Data           1  crypto_service.o(.bss.ecc_msg)
+    g_au32MyAESIV                            0x200004b4   Data          16  crypto_service.o(.bss.g_au32MyAESIV)
+    g_u32IsAES_done                          0x200004c4   Data           4  crypto_service.o(.bss.g_u32IsAES_done)
+    g_u32IsSHA_done                          0x200004c8   Data           4  crypto_service.o(.bss.g_u32IsSHA_done)
+    __initial_sp                             0x20000cd0   Data           0  startup_m2351.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000001d9
+
+  Load Region LR_ROM (Base: 0x00000000, Size: 0x00002ff0, Max: 0xffffffff, ABSOLUTE, COMPRESSED[0x00002c10])
+
+    Execution Region EXE_ROM (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00002b98, Max: 0x00040000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x000001d8   Data   RO           97    RESET               startup_m2351.o
+    0x000001d8   0x000001d8   0x00000000   Code   RO          325  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x000001d8   0x000001d8   0x00000004   Code   RO          366    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x000001dc   0x000001dc   0x00000004   Code   RO          369    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x000001e0   0x000001e0   0x00000000   Code   RO          371    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x000001e0   0x000001e0   0x00000000   Code   RO          373    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x000001e0   0x000001e0   0x00000008   Code   RO          374    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x000001e8   0x000001e8   0x00000000   Code   RO          376    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x000001e8   0x000001e8   0x00000000   Code   RO          378    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x000001e8   0x000001e8   0x00000004   Code   RO          367    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x000001ec   0x000001ec   0x00000044   Code   RO           98    .text               startup_m2351.o
+    0x00000230   0x00000230   0x0000000e   Code   RO          332    .text               mc_p.l(strlen.o)
+    0x0000023e   0x0000023e   0x00000012   Code   RO          334    .text               mc_p.l(strcpy.o)
+    0x00000250   0x00000250   0x0000002c   Code   RO          380    .text               mc_p.l(uidiv.o)
+    0x0000027c   0x0000027c   0x00000060   Code   RO          382    .text               mc_p.l(uldiv.o)
+    0x000002dc   0x000002dc   0x00000000   Code   RO          384    .text               mc_p.l(iusefp.o)
+    0x000002dc   0x000002dc   0x00000164   Code   RO          385    .text               mf_p.l(dadd.o)
+    0x00000440   0x00000440   0x000000d0   Code   RO          387    .text               mf_p.l(dmul.o)
+    0x00000510   0x00000510   0x000000f0   Code   RO          389    .text               mf_p.l(ddiv.o)
+    0x00000600   0x00000600   0x00000040   Code   RO          391    .text               mf_p.l(dfixul.o)
+    0x00000640   0x00000640   0x00000028   Code   RO          393    .text               mf_p.l(cdrcmple.o)
+    0x00000668   0x00000668   0x00000024   Code   RO          395    .text               mc_p.l(init.o)
+    0x0000068c   0x0000068c   0x00000020   Code   RO          397    .text               mc_p.l(llshl.o)
+    0x000006ac   0x000006ac   0x00000022   Code   RO          399    .text               mc_p.l(llushr.o)
+    0x000006ce   0x000006ce   0x00000026   Code   RO          401    .text               mc_p.l(llsshr.o)
+    0x000006f4   0x000006f4   0x000000be   Code   RO          403    .text               mf_p.l(depilogue.o)
+    0x000007b2   0x000007b2   0x0000003a   Code   RO          416    .text               mc_p.l(__dczerorl.o)
+    0x000007ec   0x000007ec   0x00000118   Code   RO           22    .text.Boot_Init     main.o
+    0x00000904   0x00000904   0x00000040   Code   RO           37    .text.Byte2Char     crypto_service.o
+    0x00000944   0x00000944   0x0000003c   Code   RO          173    .text.CLK_EnableModuleClock  clk.o
+    0x00000980   0x00000980   0x00000018   Code   RO          169    .text.CLK_EnableXtalRC  clk.o
+    0x00000998   0x00000998   0x00000188   Code   RO          155    .text.CLK_GetCPUFreq  clk.o
+    0x00000b20   0x00000b20   0x00000020   Code   RO          149    .text.CLK_GetHCLKFreq  clk.o
+    0x00000b40   0x00000b40   0x0000003c   Code   RO          145    .text.CLK_GetHXTFreq  clk.o
+    0x00000b7c   0x00000b7c   0x0000003c   Code   RO          147    .text.CLK_GetLXTFreq  clk.o
+    0x00000bb8   0x00000bb8   0x00000070   Code   RO          195    .text.CLK_GetModuleClockDivider  clk.o
+    0x00000c28   0x00000c28   0x000000f0   Code   RO          193    .text.CLK_GetModuleClockSource  clk.o
+    0x00000d18   0x00000d18   0x00000028   Code   RO          151    .text.CLK_GetPCLK0Freq  clk.o
+    0x00000d40   0x00000d40   0x00000034   Code   RO          153    .text.CLK_GetPCLK1Freq  clk.o
+    0x00000d74   0x00000d74   0x000000b0   Code   RO          191    .text.CLK_GetPLLClockFreq  clk.o
+    0x00000e24   0x00000e24   0x0000009c   Code   RO          163    .text.CLK_SetHCLK   clk.o
+    0x00000ec0   0x00000ec0   0x000000c4   Code   RO          165    .text.CLK_SetModuleClock  clk.o
+    0x00000f84   0x00000f84   0x00000020   Code   RO          167    .text.CLK_SetSysTickClockSrc  clk.o
+    0x00000fa4   0x00000fa4   0x00000044   Code   RO          159    .text.CLK_WaitClockReady  clk.o
+    0x00000fe8   0x00000fe8   0x00000048   Code   RO           24    .text.CRPT_IRQHandler  main.o
+    0x00001030   0x00001030   0x00000094   Code   RO           80    .text.FMC_NSBA_Setup  system_m2351.o
+    0x000010c4   0x000010c4   0x0000007a   Code   RO          105    .text.ProcessHardFault  retarget.o
+    0x0000113e   0x0000113e   0x00000002   PAD
+    0x00001140   0x00001140   0x00000078   Code   RO           78    .text.SCU_Setup     system_m2351.o
+    0x000011b8   0x000011b8   0x0000001c   Code   RO          107    .text.SH_Return     retarget.o
+    0x000011d4   0x000011d4   0x00000078   Code   RO           18    .text.SYS_Init      main.o
+    0x0000124c   0x0000124c   0x00000020   Code   RO           16    .text.SYS_UnlockReg  main.o
+    0x0000126c   0x0000126c   0x00000024   Code   RO           82    .text.SYS_UnlockReg  system_m2351.o
+    0x00001290   0x00001290   0x00000014   Code   RO          111    .text.SendChar      retarget.o
+    0x000012a4   0x000012a4   0x0000004c   Code   RO          109    .text.SendChar_ToUART  retarget.o
+    0x000012f0   0x000012f0   0x00000038   Code   RO           72    .text.SystemCoreClockUpdate  system_m2351.o
+    0x00001328   0x00001328   0x00000020   Code   RO           74    .text.SystemInit    system_m2351.o
+    0x00001348   0x00001348   0x000000bc   Code   RO           76    .text.TZ_SAU_Setup  system_m2351.o
+    0x00001404   0x00001404   0x0000001c   Code   RO           20    .text.UART0_Init    main.o
+    0x00001420   0x00001420   0x0000003a   Code   RO          210    .text.XAES_Open     MKROMLib_Keil.lib(mkrom_api.o)
+    0x0000145a   0x0000145a   0x00000036   Code   RO          218    .text.XAES_SetDMATransfer  MKROMLib_Keil.lib(mkrom_api.o)
+    0x00001490   0x00001490   0x00000036   Code   RO          216    .text.XAES_SetInitVect  MKROMLib_Keil.lib(mkrom_api.o)
+    0x000014c6   0x000014c6   0x00000030   Code   RO          214    .text.XAES_SetKey   MKROMLib_Keil.lib(mkrom_api.o)
+    0x000014f6   0x000014f6   0x00000036   Code   RO          212    .text.XAES_Start    MKROMLib_Keil.lib(mkrom_api.o)
+    0x0000152c   0x0000152c   0x00000042   Code   RO          240    .text.XECC_GeneratePublicKey  MKROMLib_Keil.lib(mkrom_api.o)
+    0x0000156e   0x0000156e   0x0000004a   Code   RO          242    .text.XECC_GenerateSignature  MKROMLib_Keil.lib(mkrom_api.o)
+    0x000015b8   0x000015b8   0x0000003e   Code   RO          238    .text.XECC_IsPrivateKeyValid  MKROMLib_Keil.lib(mkrom_api.o)
+    0x000015f6   0x000015f6   0x0000004a   Code   RO          244    .text.XECC_VerifySignature  MKROMLib_Keil.lib(mkrom_api.o)
+    0x00001640   0x00001640   0x00000030   Code   RO          230    .text.XSHA_Open     MKROMLib_Keil.lib(mkrom_api.o)
+    0x00001670   0x00001670   0x0000002a   Code   RO          236    .text.XSHA_Read     MKROMLib_Keil.lib(mkrom_api.o)
+    0x0000169a   0x0000169a   0x00000036   Code   RO          234    .text.XSHA_SetDMATransfer  MKROMLib_Keil.lib(mkrom_api.o)
+    0x000016d0   0x000016d0   0x0000002a   Code   RO          232    .text.XSHA_Start    MKROMLib_Keil.lib(mkrom_api.o)
+    0x000016fa   0x000016fa   0x0000003e   Code   RO          258    .text.XTRNG_Random  MKROMLib_Keil.lib(mkrom_api.o)
+    0x00001738   0x00001738   0x00000032   Code   RO          254    .text.XTRNG_RandomInit  MKROMLib_Keil.lib(mkrom_api.o)
+    0x0000176a   0x0000176a   0x00000002   PAD
+    0x0000176c   0x0000176c   0x00000038   Code   RO           41    .text.__NVIC_DisableIRQ  crypto_service.o
+    0x000017a4   0x000017a4   0x00000030   Code   RO           45    .text.__NVIC_EnableIRQ  crypto_service.o
+    0x000017d4   0x000017d4   0x000000e4   Code   RO           35    .text.calc_size     crypto_service.o
+    0x000018b8   0x000018b8   0x000001b0   Code   RO           49    .text.crypto_ecc_genKey  crypto_service.o
+    0x00001a68   0x00001a68   0x00000050   Code   RO            6    .text.crypto_ecc_genKey_call  main.o
+    0x00001ab8   0x00001ab8   0x00000024   Code   RO           51    .text.crypto_ecc_init  crypto_service.o
+    0x00001adc   0x00001adc   0x000001a4   Code   RO           53    .text.crypto_ecc_sign  crypto_service.o
+    0x00001c80   0x00001c80   0x00000042   Code   RO           10    .text.crypto_ecc_sign_call  main.o
+    0x00001cc2   0x00001cc2   0x00000030   Code   RO            8    .text.crypto_ecc_sign_init_call  main.o
+    0x00001cf2   0x00001cf2   0x00000002   PAD
+    0x00001cf4   0x00001cf4   0x000000c0   Code   RO           55    .text.crypto_ecc_verify  crypto_service.o
+    0x00001db4   0x00001db4   0x00000042   Code   RO           12    .text.crypto_ecc_verify_call  main.o
+    0x00001df6   0x00001df6   0x00000002   PAD
+    0x00001df8   0x00001df8   0x00000154   Code   RO           43    .text.crypto_hash   crypto_service.o
+    0x00001f4c   0x00001f4c   0x00000042   Code   RO            2    .text.crypto_hash_call  main.o
+    0x00001f8e   0x00001f8e   0x00000002   PAD
+    0x00001f90   0x00001f90   0x000000d4   Code   RO           47    .text.crypto_symmetric  crypto_service.o
+    0x00002064   0x00002064   0x0000004e   Code   RO            4    .text.crypto_symmetric_call  main.o
+    0x000020b2   0x000020b2   0x0000001c   Code   RO          121    .text.fputc         retarget.o
+    0x000020ce   0x000020ce   0x00000002   PAD
+    0x000020d0   0x000020d0   0x00000028   Code   RO           39    .text.hw_acc_disable  crypto_service.o
+    0x000020f8   0x000020f8   0x00000080   Code   RO           14    .text.main          main.o
+    0x00002178   0x00002178   0x00000020   Code   RO          339    i.__0printf         mc_p.l(printfa.o)
+    0x00002198   0x00002198   0x0000002e   Code   RO          405    i.__ARM_clz         mf_p.l(depilogue.o)
+    0x000021c6   0x000021c6   0x0000000e   Code   RO          410    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x000021d4   0x000021d4   0x00000002   Code   RO          411    i.__scatterload_null  mc_p.l(handlers.o)
+    0x000021d6   0x000021d6   0x0000000e   Code   RO          412    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x000021e4   0x000021e4   0x00000174   Code   RO          346    i._fp_digits        mc_p.l(printfa.o)
+    0x00002358   0x00002358   0x000006ec   Code   RO          347    i._printf_core      mc_p.l(printfa.o)
+    0x00002a44   0x00002a44   0x00000020   Code   RO          348    i._printf_post_padding  mc_p.l(printfa.o)
+    0x00002a64   0x00002a64   0x0000002c   Code   RO          349    i._printf_pre_padding  mc_p.l(printfa.o)
+    0x00002a90   0x00002a90   0x00000040   Data   RO          199    .rodata.cst16       clk.o
+    0x00002ad0   0x00002ad0   0x00000020   Data   RO          197    .rodata.cst32       clk.o
+    0x00002af0   0x00002af0   0x00000087   Data   RO           26    .rodata.str1.1      main.o
+    0x00002b77   0x00002b77   0x00000001   PAD
+    0x00002b78   0x00002b78   0x00000020   Data   RO          408    Region$$Table       anon$$obj.o
+
+
+    Execution Region EXE_RAM (Exec base: 0x20000000, Load base: 0x00002b98, Size: 0x00000cd0, Max: 0x00010000, ABSOLUTE, COMPRESSED[0x00000078])
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   COMPRESSED   0x00000004   Data   RW           85    .data.CyclesPerUs   system_m2351.o
+    0x20000004   COMPRESSED   0x00000004   Data   RW           86    .data.PllClock      system_m2351.o
+    0x20000008   COMPRESSED   0x00000004   Data   RW           84    .data.SystemCoreClock  system_m2351.o
+    0x2000000c   COMPRESSED   0x00000020   Data   RW           59    .data.g_au32MyAESKey  crypto_service.o
+    0x2000002c   COMPRESSED   0x000003ec   Data   RW          288    .data.g_xcrpt       MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000418   COMPRESSED   0x00000004   Data   RW          289    .data.xAES_Open     MKROMLib_Keil.lib(mkrom_api.o)
+    0x2000041c   COMPRESSED   0x00000004   Data   RW          293    .data.xAES_SetDMATransfer  MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000420   COMPRESSED   0x00000004   Data   RW          292    .data.xAES_SetInitVect  MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000424   COMPRESSED   0x00000004   Data   RW          291    .data.xAES_SetKey   MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000428   COMPRESSED   0x00000004   Data   RW          290    .data.xAES_Start    MKROMLib_Keil.lib(mkrom_api.o)
+    0x2000042c   COMPRESSED   0x00000004   Data   RW          313    .data.xBL_Random    MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000430   COMPRESSED   0x00000004   Data   RW          312    .data.xBL_RandomInit  MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000434   COMPRESSED   0x00000004   Data   RW          304    .data.xECC_GeneratePublicKey  MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000438   COMPRESSED   0x00000004   Data   RW          305    .data.xECC_GenerateSignature  MKROMLib_Keil.lib(mkrom_api.o)
+    0x2000043c   COMPRESSED   0x00000004   Data   RW          303    .data.xECC_IsPrivateKeyValid  MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000440   COMPRESSED   0x00000004   Data   RW          306    .data.xECC_VerifySignature  MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000444   COMPRESSED   0x00000004   Data   RW          299    .data.xSHA_Open     MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000448   COMPRESSED   0x00000004   Data   RW          302    .data.xSHA_Read     MKROMLib_Keil.lib(mkrom_api.o)
+    0x2000044c   COMPRESSED   0x00000004   Data   RW          301    .data.xSHA_SetDMATransfer  MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000450   COMPRESSED   0x00000004   Data   RW          300    .data.xSHA_Start    MKROMLib_Keil.lib(mkrom_api.o)
+    0x20000454   COMPRESSED   0x00000004   PAD
+    0x20000458        -       0x00000054   Zero   RW          127    .bss.__stdout       retarget.o
+    0x200004ac        -       0x00000004   Zero   RW           61    .bss.ecc_algorithm  crypto_service.o
+    0x200004b0        -       0x00000001   Zero   RW           62    .bss.ecc_msg        crypto_service.o
+    0x200004b1   COMPRESSED   0x00000003   PAD
+    0x200004b4        -       0x00000010   Zero   RW           60    .bss.g_au32MyAESIV  crypto_service.o
+    0x200004c4        -       0x00000004   Zero   RW           58    .bss.g_u32IsAES_done  crypto_service.o
+    0x200004c8        -       0x00000004   Zero   RW           57    .bss.g_u32IsSHA_done  crypto_service.o
+    0x200004cc   COMPRESSED   0x00000004   PAD
+    0x200004d0        -       0x00000800   Zero   RW           95    STACK               startup_m2351.o
+
+
+
+  Load Region LR_NSC (Base: 0x0003f000, Size: 0x00000080, Max: 0x00000800, ABSOLUTE)
+
+    Execution Region NSC_ROM (Exec base: 0x0003f000, Load base: 0x0003f000, Size: 0x00000080, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x0003f000   0x0003f000   0x00000080   Code   XO          409    Veneer$$CMSE        anon$$obj.o
+
+
+
+  Load Region LR_CRYPTO (Base: 0x00005000, Size: 0x00000000, Max: 0x00004000, ABSOLUTE)
+
+    Execution Region CRYPTO_ROM (Exec base: 0x00005000, Load base: 0x00005000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    **** No section assigned to this execution region ****
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+      1700        144         96          0          0      11814   clk.o
+      2068         68          0         32         29       9865   crypto_service.o
+      1064         96        135          0          0       9804   main.o
+       274          8          0          0         84       3296   retarget.o
+        68         18        472          0       2048        868   startup_m2351.o
+       580        176          0         12          0       5673   system_m2351.o
+
+    ----------------------------------------------------------------------
+      5892        510        736         44       2168      41320   Object Totals
+       128          0         32          0          0          0   (incl. Generated)
+        10          0          1          0          7          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+       842          0          0       1064          0          0   mkrom_api.o
+        58          0          0          0          0          0   __dczerorl.o
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+         0          0          0          0          0          0   iusefp.o
+        32          0          0          0          0         68   llshl.o
+        38          0          0          0          0         68   llsshr.o
+        34          0          0          0          0         68   llushr.o
+      2252         98          0          0          0        412   printfa.o
+        18          0          0          0          0         60   strcpy.o
+        14          0          0          0          0         60   strlen.o
+        44          0          0          0          0         72   uidiv.o
+        96          0          0          0          0         84   uldiv.o
+        40          2          0          0          0         68   cdrcmple.o
+       356          4          0          0          0        140   dadd.o
+       240          6          0          0          0         84   ddiv.o
+       236          0          0          0          0        216   depilogue.o
+        64         10          0          0          0         68   dfixul.o
+       208          6          0          0          0         88   dmul.o
+
+    ----------------------------------------------------------------------
+      4660        142          0       1064          4       1624   Library Totals
+         2          0          0          0          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       842          0          0       1064          0          0   MKROMLib_Keil.lib
+      2672        114          0          0          0        960   mc_p.l
+      1144         28          0          0          0        664   mf_p.l
+
+    ----------------------------------------------------------------------
+      4660        142          0       1064          4       1624   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     10552        652        736       1108       2172      42348   Grand Totals
+     10552        652        736        120       2172      42348   ELF Image Totals (compressed)
+     10552        652        736        120          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                11288 (  11.02kB)
+    Total RW  Size (RW Data + ZI Data)              3280 (   3.20kB)
+    Total ROM Size (Code + RO Data + RW Data)      11408 (  11.14kB)
+
+==============================================================================
+

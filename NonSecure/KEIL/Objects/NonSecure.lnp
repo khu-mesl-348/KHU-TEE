@@ -1,0 +1,9 @@
+--cpu=Cortex-M23
+".\objects\main_ns.o"
+".\objects\system_m2351.o"
+".\objects\startup_m2351.o"
+".\objects\retarget.o"
+"..\..\Secure\lib\nsclib.o"
+--library_type=microlib --ro-base 0x10040000 --entry 0x10040000 --rw-base 0x30010000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\NonSecure.map" -o .\Objects\NonSecure.axf
